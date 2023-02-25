@@ -4,18 +4,23 @@ function App() {
   const items = [
     {
       id: "18672dfs",
-      label: "Can I use react on a project?",
-      content: "Yes sir",
+      label: "Option 1",
+      content: "Option 1 displayed",
     },
     {
       id: "13462dfs",
-      label: "Can I use javascript on a project?",
-      content: "Yes sir",
+      label: "Option 2",
+      content: "Option 2 displayed",
     },
     {
       id: "89512dfs",
-      label: "Can I use css on a project?",
-      content: "Yes sir",
+      label: "Option 3",
+      content: "Option 3 displayed",
+    },
+    {
+      id: "89512dfs",
+      label: "Option 4",
+      content: "Option 4 displayed",
     },
   ];
   return <Accordion items={items} />;
