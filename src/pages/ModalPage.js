@@ -34,7 +34,7 @@ function ModalPage() {
       </Button>
       {showModal && modal}
 
-      <p>
+      <p className="pt-12">
         Generating long and coherent text is an important but challenging task,
         particularly for open-ended language generation tasks such as story
         generation. Despite the success in modeling intra-sentence coherence,
